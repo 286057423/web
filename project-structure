@@ -1,0 +1,9 @@
+my-website/
+  ├── src/
+  │   ├── components/
+  │   │   ├── Header.vue
+  │   │   ├── OrbitProfile.vue
+  │   │   └── Navigation.vue
+  │   ├── assets/
+  │   ├── App.vue
+  │   └── main.js 
