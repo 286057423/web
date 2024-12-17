@@ -3,6 +3,18 @@
     <Header />
     <main class="main">
       <OrbitProfile />
+      <section id="favorites" class="section">
+        <FavoritesSection />
+      </section>
+      <section id="code" class="section">
+        <CodeSection />
+      </section>
+      <section id="game" class="section">
+        <GameSection />
+      </section>
+      <section id="books" class="section">
+        <BooksSection />
+      </section>
     </main>
     <Footer />
   </div>
@@ -12,6 +24,10 @@
 import Header from './components/Header.vue'
 import OrbitProfile from './components/OrbitProfile.vue'
 import Footer from './components/Footer.vue'
+import FavoritesSection from './components/sections/FavoritesSection.vue'
+import CodeSection from './components/sections/CodeSection.vue'
+import GameSection from './components/sections/GameSection.vue'
+import BooksSection from './components/sections/BooksSection.vue'
 </script>
 
 <style>
@@ -65,5 +81,22 @@ body {
 
 .fade-in {
   animation: fadeIn 0.5s ease-out forwards;
+}
+
+.section {
+  padding: 4rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.section-content {
+  padding: 0 2rem;
 }
 </style> 

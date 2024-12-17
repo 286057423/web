@@ -7,3 +7,8 @@ my-website/
   │   ├── assets/
   │   ├── App.vue
   │   └── main.js 
+  │   ├── sections/
+  │   │   ├── FavoritesSection.vue
+  │   │   ├── CodeSection.vue
+  │   │   ├── GameSection.vue
+  │   │   └── BooksSection.vue

@@ -45,7 +45,6 @@ const menuItems = [
   { name: 'favorites', label: '收藏', href: '#favorites' },
   { name: 'code', label: '代码', href: '#code' },
   { name: 'game', label: '游戏', href: '#game' },
-  { name: 'music', label: '音乐', href: '#music' },
   { name: 'books', label: '书籍', href: '#books' }
 ]
 

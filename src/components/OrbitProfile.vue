@@ -18,13 +18,8 @@
         <div class="divider"></div>
         <h3>I'm a:</h3>
         <ul class="roles">
-          <li>Influencer (>324K followers)</li>
-          <li>Chromium Developer</li>
-          <li>Web Developer</li>
-          <li>Game Developer</li>
-          <li>Game Critic</li>
-          <li>Digital Nomad</li>
-          <li>Trader</li>
+          <li>Student</li>
+          <li>operation and maintenance engineer</li>
         </ul>
       </div>
     </div>
