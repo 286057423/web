@@ -23,14 +23,8 @@
          :title="item.name"
          target="_blank"
          rel="noopener noreferrer"
-         :class="{ 'wechat-link': item.name === '微信' }"
-         @click="item.name === '微信' ? showQRCode($event) : null"
       >
         <i :class="item.icon"></i>
-        <div v-if="item.name === '微信'" class="qr-code">
-          <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=YourWeChatID" alt="微信二维码">
-          <span>扫码添加微信</span>
-        </div>
       </a>
     </div>
   </header>
@@ -55,10 +49,6 @@ const socialLinks = [
 
 const setCurrentSection = (section) => {
   currentSection.value = section
-}
-
-const showQRCode = (event) => {
-  event.preventDefault()
 }
 </script>
 
@@ -129,11 +119,6 @@ const showQRCode = (event) => {
 .social a:hover {
   color: #ff7f50;
   transform: translateY(-2px);
-}
-
-.wechat-link,
-.qr-code {
-  display: none;
 }
 
 @media (max-width: 768px) {

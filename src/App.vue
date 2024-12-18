@@ -67,22 +67,6 @@ body {
   }
 }
 
-/* 添加一些全局动画 */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.fade-in {
-  animation: fadeIn 0.5s ease-out forwards;
-}
-
 .section {
   padding: 4rem 0;
   max-width: 1200px;
