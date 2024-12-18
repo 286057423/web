@@ -31,6 +31,21 @@ const favorites = [
     name: "Docker",
     description: "容器化平台",
     link: "https://www.docker.com/"
+  },
+  {
+    name: "阿里开源镜像站",
+    description: "阿里开源镜像站",
+    link: "https://developer.aliyun.com/mirror/"
+  },
+  {
+    name: "清华开源镜像站",
+    description: "清华开源镜像站",
+    link: "https://mirrors.tuna.tsinghua.edu.cn/"
+  },
+  {
+    name: "华为开源镜像站",
+    description: "华为开源镜像站",
+    link: "https://mirrors.huaweicloud.com/"
   }
 ]
 </script>

@@ -39,6 +39,13 @@ const games = [
     rating: 9.0,
     tags: ["开放世界", "角色扮演", "冒险"],
     link: "https://ys.mihoyo.com/"
+  },
+  {
+    name: "小游戏",
+    description: "静态小游戏,纯纯摸鱼",
+    rating: 9.5,
+    tags: ["小游戏", "静态"],
+    link: "/www/index.html"
   }
 ]
 </script>
