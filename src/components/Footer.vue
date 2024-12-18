@@ -21,11 +21,14 @@
       <div class="footer-section">
         <h3>技术栈</h3>
         <div class="tech-stack">
+          <span>Linux</span>
           <span>Python</span>
-          <span>Ansible</span>
           <span>nginx</span>
-          <span>docker</span>
-          <span>kubernetes</span>
+          <span>Ansible</span>
+          <span>Jenkins</span>
+          <span>Git</span>
+          <span>Docker</span>
+          <span>Kubernetes</span>
         </div>
       </div>
     </div>
